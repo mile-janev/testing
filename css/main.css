@@ -1,0 +1,744 @@
+/*Od tuka opsti postavuvanja*/
+h1 h2 h3 h4 h5 h6{
+    text-align: center;
+}
+a{
+    text-decoration: none !important;
+}
+/*Do tuka opstite postavuvanja*/
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font: normal 10pt Arial,Helvetica,sans-serif;
+        background: #f1f1f1;
+        color: #595959;
+}
+
+#page
+{
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+        background: #FCFCFC;
+        padding: 20px;
+}
+
+#header
+{
+}
+
+#content
+{
+    margin-top: 30px;
+    min-height: 450px;
+}
+
+#sidebar
+{
+	padding: 20px 20px 20px 0;
+}
+
+#footer
+{
+	padding: 10px;
+	margin: 10px 20px;
+	font-size: 0.8em;
+	text-align: center;
+	border-top: 1px solid #C9E0ED;
+}
+#copyrightM
+{
+    text-align: right;
+}
+
+#logo
+{
+    text-align: center;
+    padding: 0px 20px;
+}
+
+#mainmenu
+{
+    background: url("../images/mainmenu.png") repeat-x;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#mainmenu ul
+{
+	padding:6px 20px 7px 20px;
+	margin:0px;
+}
+
+#mainmenu ul li
+{
+	display: inline;
+        border-left: 1px solid white;
+}
+
+#mainmenu ul li:first-child
+{
+        border-left: none;
+}
+
+#mainmenu ul li a
+{
+	color:#ffffff;
+	background-color:transparent;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:7px 15px;
+        
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a
+{
+	color: #0f5ac4;
+	/*background-color:#C8D6D6;*/
+	text-decoration:none;
+}
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+	padding:.8em;
+	margin-bottom:1em;
+	border:2px solid #ddd;
+}
+
+div.flash-error
+{
+	background:#FBE3E4;
+	color:#8a1f11;
+	border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+	background:#FFF6BF;
+	color:#514721;
+	border-color:#FFD324;
+}
+
+div.flash-success
+{
+	background:#E6EFC2;
+	color:#264409;
+	border-color:#C6D880;
+}
+
+div.flash-error a
+{
+	color:#8a1f11;
+}
+
+div.flash-notice a
+{
+	color:#514721;
+}
+
+div.flash-success a
+{
+	color:#264409;
+}
+
+div.form .rememberMe label
+{
+	display: inline;
+}
+
+div.view
+{
+	padding: 10px;
+	margin: 20px 0px 10px 0px;;
+	border: 1px solid #DADADA;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+}
+
+div.breadcrumbs
+{
+	font-size: 0.9em;
+	padding: 5px 20px;
+}
+
+div.breadcrumbs span
+{
+	font-weight: bold;
+}
+
+div.search-form
+{
+	padding: 10px;
+	margin: 10px 0;
+	background: #eee;
+}
+
+.portlet
+{
+    padding-top: 47px;
+}
+
+.portlet-decoration
+{
+	padding: 3px 8px;
+	background: #B7D6E7;
+	border-left: 5px solid #6FACCF;
+}
+
+.portlet-title
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	color: #298dcd;
+}
+
+.portlet-content
+{
+	font-size:0.9em;
+	margin: 0 0 15px 0;
+	padding: 5px 8px;
+	background:#EFFDFF;
+}
+
+.portlet-content ul
+{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+.portlet-content li
+{
+	padding: 2px 0 4px 0px;
+}
+
+.operations
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.operations li
+{
+	padding-bottom: 2px;
+}
+
+.operations li a
+{
+	font: bold 12px Arial;
+	color: #0066A4;
+	display: block;
+	padding: 2px 0 2px 8px;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.operations li a:visited
+{
+	color: #0066A4;
+}
+
+.operations li a:hover
+{
+	background: #80CFFF;
+}
+/*Moj CSS kod od ovde*/
+#broj_prasanja{
+    margin-left: -10px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+/*Od ovde moi*/
+.index-left{
+    border: solid 1px #DADADA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 30px;
+    float: left;
+    background: #F7F7F7;
+    width: 252px;
+}
+.index-center{
+    border: solid 1px #DADADA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 30px;
+    margin-left: 20px;
+    float: left;
+    background: #F7F7F7;
+    width: 220px;
+}
+.index-right{
+    border: solid 1px #DADADA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 30px;
+    margin-left: 20px;
+    float: left;
+    background: #F7F7F7;
+    width: 252px;
+}
+
+.questionmenu{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+.questionmenu li{
+    display: inline;
+}
+.questionmenu li a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+h3{
+    text-align: center;
+}
+
+.index-center #LoginForm_username{
+    width: 210px;;
+}
+.index-center #LoginForm_password{
+    width: 210px;
+}
+input{
+    font-weight: bold;
+    color: #5F5F5F;
+}
+.index-right #student-index{
+    display: inline;
+    padding-left: 10px;
+}
+.register-student-tester{
+    border: solid 1px #DADADA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 30px;
+    background: #F7F7F7;
+    width: 310px;
+    margin-left: auto;/*margin-left: auto; margin-right: auto; clear: both; ja centriraat formata na sredina*/
+    margin-right: auto;
+    clear: both;
+}
+
+.student-left{
+    border: solid 1px #DADADA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 20px;
+    float: left;
+    background: #F7F7F7;
+    width: 260px;
+}
+.student-center{
+    border: solid 1px #DADADA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 20px;
+    margin-left: 20px;
+    float: left;
+    background: #F7F7F7;
+    width: 264px;
+}
+.student-right{
+    border: solid 1px #DADADA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 20px;
+    margin-left: 20px;
+    float: left;
+    background: #F7F7F7;
+    width: 260px;
+}
+#tajmer{
+    height: 55px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.test_eden{
+    background: url('../images/test_bullet.png') no-repeat 0 45%;
+    padding-left: 40px;
+}
+
+.tester-left{
+    border: solid 1px #DADADA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 20px;
+    float: left;
+    background: #F7F7F7;
+    width: 260px;
+}
+.tester-center{
+    border: solid 1px #DADADA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 20px;
+    margin-left: 20px;
+    float: left;
+    background: #F7F7F7;
+    width: 264px;
+}
+.tester-right{
+    border: solid 1px #DADADA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 20px;
+    margin-left: 20px;
+    float: left;
+    background: #F7F7F7;
+    width: 260px;
+}
+.pregledani-tester{
+    border: solid 1px #DADADA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 50px;
+    background: #F7F7F7;
+    width: 400px;
+    margin-left: auto;/*margin-left: auto; margin-right: auto; clear: both; ja centriraat formata na sredina*/
+    margin-right: auto;
+    clear: both;
+}
+.popolnuvanje-prasanja{
+    border: solid 1px #DADADA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 30px;
+    background: #F7F7F7;
+    width: 465px;
+    margin-left: auto;/*margin-left: auto; margin-right: auto; clear: both; ja centriraat formata na sredina*/
+    margin-right: auto;
+    clear: both;
+}
+.popolnuvanje-prasanja-view{
+    border: solid 1px #DADADA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 30px;
+    background: #F7F7F7;
+    width: 885px;
+    margin-left: auto;/*margin-left: auto; margin-right: auto; clear: both; ja centriraat formata na sredina*/
+    margin-right: auto;
+    clear: both;
+}
+.prasanja_test{
+    border: solid 1px #DADADA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 10px 30px;
+    background: #F7F7F7;
+    width: 885px;
+    margin-left: auto;/*margin-left: auto; margin-right: auto; clear: both; ja centriraat formata na sredina*/
+    margin-right: auto;
+    clear: both;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+.prasanje_left{
+    border: solid 1px #DADADA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 20px;
+    float: left;
+    background: #F7F7F7;
+    width: 595px;
+    margin-top: 20px;
+}
+.prasanje_right{
+    border: solid 1px #DADADA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 20px;
+    float: left;
+    margin-left: 20px;
+    background: #F7F7F7;
+    width: 250px;
+    margin-top: 20px;
+}
+.prasanja_test a{
+    font-size: 0.7em;
+    padding-left: 5px;
+}
+.pregledaj_left{
+    border: solid 1px #DADADA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 20px;
+    float: left;
+    background: #F7F7F7;
+    width: 546px;
+    margin-top: 20px;
+}
+.pregledaj_right{
+    border: solid 1px #DADADA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 20px;
+    margin-left: 20px;
+    float: left;
+    background: #F7F7F7;
+    width: 300px;
+    margin-top: 20px;
+}
+.pregledaj_form{
+    border: solid 1px #DADADA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 20px;
+    float: left;
+    background: #F7F7F7;
+    width: 905px;
+    margin-top: 20px;
+}
+#sredina{
+    text-align: center;
+}
+.tabeli td, th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 1px #757575;
+    text-align: center;
+}
+.prasanje_odgovaranje{
+    border: solid 1px #DADADA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 20px;
+    background: #F7F7F7;
+    width: 700px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+.prasanje_odgovaranje textarea{
+    width: 695px;
+    height: 70px;
+}
+.prasanje_naslov{
+    border: solid 1px #DADADA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 20px;
+    background: #F7F7F7;
+    width: 700px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+}
+#prasanja_odgovor{
+    border: solid 1px #DADADA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 20px;
+    background: #F7F7F7;
+    width: 700px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+.odgovor_poeni{
+    border: solid 1px #DADADA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px 20px;
+    background: #F7F7F7;
+    width: 700px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.prasanje_odgovor{
+    
+}
+.komentar{
+    
+}
+
+#tabela_levo{
+    padding-left: 20px;
+    text-align: left;
+}
+.admin_menu{
+    font-size: 15px;
+    text-align: center;
+}
+.admin_menu a{
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: solid 1px;
+}
+.admin_menu a:first-child{
+    border-left: none;
+}
+
+.tutoriali_student{
+    border: solid 1px #DADADA;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-top: 30px;
+    padding: 20px 30px;
+    background: #F7F7F7;
+    width: 310px;
+    margin-left: auto;/*margin-left: auto; margin-right: auto; clear: both; ja centriraat formata na sredina*/
+    margin-right: auto;
+    clear: both;
+}
+
+/*Kopcinja*/
+/*kopce za vnes, Submit*/
+.vnes {
+	-moz-box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #bddbfa), color-stop(1, #80b5ea) );
+	background:-moz-linear-gradient( center top, #bddbfa 5%, #80b5ea 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bddbfa', endColorstr='#80b5ea');
+	background-color:#bddbfa;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:6px 18px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #528ecc;
+        margin-top: 5px;
+}.vnes:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #80b5ea), color-stop(1, #bddbfa) );
+	background:-moz-linear-gradient( center top, #80b5ea 5%, #bddbfa 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#80b5ea', endColorstr='#bddbfa');
+	background-color:#80b5ea;
+}.vnes:active {
+	position:relative;
+	top:1px;
+}
+
+/*Kopce za odgovaranje na test*/
+.odgovaraj_test {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #63b8ee), color-stop(1, #468ccf) );
+	background:-moz-linear-gradient( center top, #63b8ee 5%, #468ccf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63b8ee', endColorstr='#468ccf');
+	background-color:#63b8ee;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	color:#14396a;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:3px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+        margin-top: 2px;
+}.odgovaraj_test:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #468ccf), color-stop(1, #63b8ee) );
+	background:-moz-linear-gradient( center top, #468ccf 5%, #63b8ee 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#468ccf', endColorstr='#63b8ee');
+	background-color:#468ccf;
+}.odgovaraj_test:active {
+	position:relative;
+	top:1px;
+}
+
+/*Kopce za pregled na test*/
+.pogledni_test {
+	-moz-box-shadow:inset 0px 1px 0px 0px #cae3fc;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #cae3fc;
+	box-shadow:inset 0px 1px 0px 0px #cae3fc;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #4197ee) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #4197ee 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#4197ee');
+	background-color:#79bbff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #469df5;
+	display:inline-block;
+	color:#14396a;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:3px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #7cacde;
+}.pogledni_test:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4197ee), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #4197ee 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4197ee', endColorstr='#79bbff');
+	background-color:#4197ee;
+}.pogledni_test:active {
+	position:relative;
+	top:1px;
+}
+/*Kopce sivo nikade ne se koriste sea za sea*/
+.sivo_kopce {
+	-moz-box-shadow:inset 0px 1px 0px -50px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px -50px #ffffff;
+	box-shadow:inset 0px 1px 0px -50px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, #f6f6f6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6');
+	background-color:#ffffff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#14396a;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:3px 18px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}.sivo_kopce:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff) );
+	background:-moz-linear-gradient( center top, #f6f6f6 5%, #ffffff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff');
+	background-color:#f6f6f6;
+}.sivo_kopce:active {
+	position:relative;
+	top:1px;
+}

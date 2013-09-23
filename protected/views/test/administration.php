@@ -1,0 +1,1 @@
+<?php echo $this->renderPartial('../test/_administration', array('model'=>$model)); ?>
